@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @react-navigation/material-top-tabs react-native-tab-view
+  C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add qs
 
 PATH: 
-  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\Admin\AppData\Local\Android\Sdk\emulator;C:\Users\Admin\AppData\Local\Android\Sdk\tools;C:\Users\Admin\AppData\Local\Android\Sdk\tools\bin;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Admin\AppData\Local\Programs\Python\Python38;C:\Users\Admin\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\software\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;D:\mysql-8.0.20-winx64\bin;C:\Program Files\JetBrains\WebStorm 2020.2.3\bin;flutter\bin
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\Admin\AppData\Local\Android\Sdk\emulator;C:\Users\Admin\AppData\Local\Android\Sdk\tools;C:\Users\Admin\AppData\Local\Android\Sdk\tools\bin;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Admin\AppData\Local\Programs\Python\Python38;C:\Users\Admin\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;D:\software\Microsoft VS Code\bin;C:\Users\Admin\AppData\Roaming\npm;D:\mysql-8.0.20-winx64\bin;C:\Program Files\JetBrains\WebStorm 2020.2.3\bin;;C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools;flutter\bin;
 
 Yarn version: 
   1.22.10
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EACCES: permission denied, lstat 'D:\代码\expo\shopping\node_modules\es-abstract\2019\Type.js'
+  Error: EACCES: permission denied, lstat 'D:\代码\expo\shopping\node_modules\babel-preset-fbjs\node_modules\@babel\core\lib\transformation\file'
 
 npm manifest: 
   {
@@ -31,6 +31,7 @@ npm manifest:
       "@react-native-community/masked-view": "0.1.10",
       "@react-navigation/bottom-tabs": "^5.11.7",
       "@react-navigation/material-bottom-tabs": "^5.3.13",
+      "@react-navigation/material-top-tabs": "^5.3.13",
       "@react-navigation/native": "^5.9.2",
       "@react-navigation/stack": "^5.14.2",
       "expo": "~40.0.0",
@@ -43,6 +44,7 @@ npm manifest:
       "react-native-reanimated": "~1.13.0",
       "react-native-safe-area-context": "3.1.9",
       "react-native-screens": "~2.15.2",
+      "react-native-tab-view": "^2.15.2",
       "react-native-web": "~0.13.12",
       "react-redux": "^7.2.2",
       "redux": "^4.0.5",
@@ -1773,6 +1775,13 @@ Lockfile:
     version "5.3.13"
     resolved "https://registry.npm.taobao.org/@react-navigation/material-bottom-tabs/download/@react-navigation/material-bottom-tabs-5.3.13.tgz#c9657008894b2ec85ed3560731e8ea6220151e5a"
     integrity sha1-yWVwCIlLLshe01YHMejqYiAVHlo=
+  
+  "@react-navigation/material-top-tabs@^5.3.13":
+    version "5.3.13"
+    resolved "https://registry.npm.taobao.org/@react-navigation/material-top-tabs/download/@react-navigation/material-top-tabs-5.3.13.tgz#951353f96c081ab18c4e0053a0c28ebce5e46d28"
+    integrity sha1-lRNT+WwIGrGMTgBToMKOvOXkbSg=
+    dependencies:
+      color "^3.1.3"
   
   "@react-navigation/native@^5.9.2":
     version "5.9.2"
@@ -5426,6 +5435,11 @@ Lockfile:
     version "2.15.2"
     resolved "https://registry.npm.taobao.org/react-native-screens/download/react-native-screens-2.15.2.tgz?cache=0&sync_timestamp=1611589836062&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-native-screens%2Fdownload%2Freact-native-screens-2.15.2.tgz#a449700e895b462937211ec72ed6f09652758f06"
     integrity sha1-pElwDolbRik3IR7HLtbwllJ1jwY=
+  
+  react-native-tab-view@^2.15.2:
+    version "2.15.2"
+    resolved "https://registry.npm.taobao.org/react-native-tab-view/download/react-native-tab-view-2.15.2.tgz#4bc7832d33a119306614efee667509672a7ee64e"
+    integrity sha1-S8eDLTOhGTBmFO/uZnUJZyp+5k4=
   
   react-native-web@~0.13.12:
     version "0.13.18"

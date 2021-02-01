@@ -7,6 +7,7 @@ import {
   Image,
   Platform,
   RefreshControl,
+  ActivityIndicator
 } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { FlatList } from 'react-native-gesture-handler'
@@ -59,7 +60,6 @@ export default function JSScreen({ navigation }) {
     },
   ]
   const renderItem = ({item}) => {
-    console.log('===',item)
     return (
       <View style={Styles.item}>
         <View>
@@ -93,6 +93,7 @@ export default function JSScreen({ navigation }) {
         data={data}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
+        onEndReached={(e) => console.log('e',e)}
         // refreshing={refreshing}
         // onRefresh={handleRefresh}
         refreshControl={
